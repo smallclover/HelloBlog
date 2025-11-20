@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="HB.png"/>
+  <img src="HB.png" width="300"/>
 </p>
 
 ## 简介

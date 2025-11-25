@@ -27,7 +27,10 @@
 
 | 博客名称         | 链接                                                   | 主要内容         | 博主    | 标签    | 可访问性     | 更新状态  | 一句话推荐                  | RSS                                    |
 | ------------ | ---------------------------------------------------- | ------------ | ----- | ----- | -------- | ----- | ---------------------- | -------------------------------------- |
-| **TheLynan** | [https://cn.thelynan.com/](https://cn.thelynan.com/) | 旅行游记,前端的工程经验 | Lynan | 旅行/前端 | 🇨🇳 可访问 | 🔥 活跃 | 博客模板简洁，旅行生活内容图文并茂，更新活跃 | [📶](https://cn.thelynan.com/feed.xml) |
+| **TheLynan** | [https://cn.thelynan.com/](https://cn.thelynan.com/) | 旅行游记,前端的工程经验 | Lynan | 旅行/前端 | 🇨🇳 可访问 | 🔥 活跃 | 模板美观大方，旅行生活内容图文并茂，更新活跃 | [📶](https://cn.thelynan.com/feed.xml) |
+| **GongYeBlog** | [https://gongyeqi.top/](https://gongyeqi.top/) | 旅行,技术分享 | GongYe | 旅行/技术 | 🇨🇳 可访问 | 最后更新2025年6月 | 技术随笔详细 | [📶](https://gongyeqi.top/feed.xml) |
+| **木遥的窗子** | [https://blog.farmostwood.net/](https://blog.farmostwood.net/) | 技术的哲学思辨 | 木遥 | 技术与人文 | 🇨🇳 可访问 | 🔥 活跃 | 简洁，获取他人的苹果 | [📶](https://blog.farmostwood.net/feed.xml) |
+
 
 ## 🤝 贡献
 

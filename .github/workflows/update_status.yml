@@ -36,7 +36,7 @@ jobs:
 
       - name: 🚀 运行更新脚本
         run: |
-          python /script/update_blogs.py
+          python script/update_blogs.py
 
       - name: 💾 自动提交和推送 README.md
         # 使用 stefanzweifel/git-auto-commit-action 自动提交修改

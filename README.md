@@ -5,9 +5,7 @@
   <span>🚀 Hello Blog - 持续收集个人博客</span>
 </p>
 
-<p align="center">
 <p align="center"><span>更新时间：2025/11/26 04:03</span></p>
-</p>
 
 ## 📚简介
 

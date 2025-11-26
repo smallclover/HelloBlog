@@ -38,11 +38,11 @@ jobs:
         run: |
           python script/update_blogs.py
 
-      - name: 💾 自动提交和推送 README.md
-        # 使用 stefanzweifel/git-auto-commit-action 自动提交修改
+      - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # 自动提交所有变更，并使用自定义的 commit 信息
-          commit_message: "chore: 🤖 自动更新博客状态和最后更新时间"
+          commit_message: chore: 🤖 自动更新博客状态和最后更新时间
           file_pattern: README.md
-          skip_dirty_check: true # 即使没有变更也运行提交（不影响实际功能）
+          # 如果没有更改，Action 默认会静默成功，不会报错。
+          # 如果你依然遇到 Status code 1，可以尝试添加下面这行：
+          skip_fetch: true

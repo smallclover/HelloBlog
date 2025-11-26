@@ -41,7 +41,7 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: chore: 🤖 自动更新博客状态和最后更新时间
+          commit_message: chore:🤖 自动更新博客状态和最后更新时间
           file_pattern: README.md
           # 如果没有更改，Action 默认会静默成功，不会报错。
           # 如果你依然遇到 Status code 1，可以尝试添加下面这行：

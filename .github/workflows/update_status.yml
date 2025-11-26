@@ -1,0 +1,48 @@
+name: 博客状态自动更新 (Blog Status Auto-Update)
+
+# 触发条件：
+on:
+  # 每天 UTC 时间 00:00 运行（北京时间早上 8 点）
+  schedule:
+    - cron: '0 0 * * *' 
+  
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📝 检查代码 (Checkout repository)
+        uses: actions/checkout@v4
+        # 必须设置 token 权限，才能让后续步骤推送代码
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: 📦 安装依赖库
+        run: |
+          pip install requests feedparser beautifulsoup4 lxml playwright
+
+      - name: 🌐 安装浏览器驱动
+        # 这一步是 Playwright 正常运行的关键，它将安装 Chromium 等浏览器
+        run: |
+          playwright install chromium --with-deps
+          
+      - name: 🚀 运行更新脚本
+        run: |
+          python update_blogs.py
+
+      - name: 💾 自动提交和推送 README.md
+        # 使用 stefanzweifel/git-auto-commit-action 自动提交修改
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # 自动提交所有变更，并使用自定义的 commit 信息
+          commit_message: "chore: 🤖 自动更新博客状态和最后更新时间"
+          file_pattern: README.md
+          skip_dirty_check: true # 即使没有变更也运行提交（不影响实际功能）

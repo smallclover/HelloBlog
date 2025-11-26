@@ -380,33 +380,34 @@ def main():
     # 2. 解析博客列表
     blogs = parse_blog_list(original_content)
     print(f"找到 {len(blogs)} 个博客，开始检查更新...\n")
+    print(blogs)
     
-    # 3. 抓取并存储更新日期
-    for blog in blogs:
-        last_update = check_update(blog)
-        # 只有抓取到合法日期（YYYY-MM-DD）才更新字典
-        if last_update != "Unknown":
-            update_results[blog['name']] = last_update
+    # # 3. 抓取并存储更新日期
+    # for blog in blogs:
+    #     last_update = check_update(blog)
+    #     # 只有抓取到合法日期（YYYY-MM-DD）才更新字典
+    #     if last_update != "Unknown":
+    #         update_results[blog['name']] = last_update
         
-    print("\n" + "="*50)
-    print(f"检查完成，共成功获取 {len(update_results)} 个博客的更新时间。")
-    print("="*50)
+    # print("\n" + "="*50)
+    # print(f"检查完成，共成功获取 {len(update_results)} 个博客的更新时间。")
+    # print("="*50)
 
-    # 4. 更新 README 内容 (表格状态)
-    updated_content_table = original_content
-    if update_results:
-        print("开始更新表格状态...")
-        updated_content_table = update_readme_content(original_content, update_results)
+    # # 4. 更新 README 内容 (表格状态)
+    # updated_content_table = original_content
+    # if update_results:
+    #     print("开始更新表格状态...")
+    #     updated_content_table = update_readme_content(original_content, update_results)
     
-    # 5. 【新增步骤】更新时间戳
-    print("开始更新顶部的运行时间戳...")
-    final_content = update_timestamp(updated_content_table)
+    # # 5. 【新增步骤】更新时间戳
+    # print("开始更新顶部的运行时间戳...")
+    # final_content = update_timestamp(updated_content_table)
     
-    # 6. 覆盖写入原始文件
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(final_content)
+    # # 6. 覆盖写入原始文件
+    # with open("README.md", "w", encoding="utf-8") as f:
+    #     f.write(final_content)
         
-    print("\n✅ README.md 已更新。")
+    # print("\n✅ README.md 已更新。")
 
 if __name__ == "__main__":
     main()

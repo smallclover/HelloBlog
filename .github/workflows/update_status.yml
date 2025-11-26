@@ -33,10 +33,10 @@ jobs:
         # 这一步是 Playwright 正常运行的关键，它将安装 Chromium 等浏览器
         run: |
           playwright install chromium --with-deps
-          
+
       - name: 🚀 运行更新脚本
         run: |
-          python update_blogs.py
+          python /script/update_blogs.py
 
       - name: 💾 自动提交和推送 README.md
         # 使用 stefanzweifel/git-auto-commit-action 自动提交修改

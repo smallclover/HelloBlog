@@ -32,7 +32,9 @@
 | **TheLynan** | [https://cn.thelynan.com/](https://cn.thelynan.com/) | 旅行游记,前端的工程经验 | Lynan | 旅行/前端 | 🇨🇳 可访问 | 🔥 活跃 | 模板美观大方，旅行生活内容图文并茂，更新活跃 | [📶](https://cn.thelynan.com/feed.xml) |
 | **GongYeBlog** | [https://gongyeqi.top/](https://gongyeqi.top/) | 旅行,技术分享 | GongYe | 旅行/技术 | 🇨🇳 可访问 | 最后更新2025年6月 | 技术随笔详细 | - |
 | **木遥的窗子Blog** | [https://blog.farmostwood.net/](https://blog.farmostwood.net/) | 人文 | 木遥 | 技术与人文 | 🇨🇳 可访问 | 最后更新2023年07月 | 简洁，获取他人的苹果 | [📶](https://blog.farmostwood.net/feed) |
-| **木遥的窗子AI** | [https://ai.farmostwood.net/](https://ai.farmostwood.net/) | 技术的哲学思辨 | 木遥 | 技术与人文 | 🇨🇳 可访问 | 🔥 活跃 | 简洁，获取他人的苹果 | - |
+| **木遥的窗子AI** | [https://ai.farmostwood.net/](https://ai.farmostwood.net/) | 技术的哲学思辨 | 木遥 | 技术与人文 | 🇨🇳 可访问 | 🔥 活跃 | AI 与 人类 | - |
+| **Wu Yudong's Blog** | [https://wuyudong.com/](https://wuyudong.com/) | 网站相关的前后端技术 | wuyudong | 网站/php/前端 | 🇨🇳 可访问 | 🔥 活跃 | Keep It Simple, Stupid | [📶](https://wuyudong.com/feed) |
+
 
 
 ## 🤝 贡献

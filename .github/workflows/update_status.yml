@@ -4,7 +4,7 @@ name: 博客状态自动更新 (Blog Status Auto-Update)
 on:
   # 每天 UTC 时间 00:00 运行（北京时间早上 8 点）
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: '59 23 * * 0' 
   
   # 允许手动触发
   workflow_dispatch:

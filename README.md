@@ -21,7 +21,7 @@
 | **博主**      | 作者名字或昵称                   |
 | **标签 Tags** | 更精确的主题标签                  |
 | **可访问性**    | 🇨🇳 可访问 / 🌏 较慢 / 🚫 需代理 |
-| **更新状态**    | 🔥 活跃 / 🟡 偶尔更新 / ⚫ 停更    |
+| **更新状态**    | 🔥 活跃 / 最后更新日期    |
 | **一句话推荐**   | 为什么值得读的简短理由               |
 | **RSS**     | RSS订阅                     |
 
@@ -35,6 +35,7 @@
 | **木遥的窗子AI** | [https://ai.farmostwood.net/](https://ai.farmostwood.net/) | 技术的哲学思辨 | 木遥 | 技术与人文 | 🇨🇳 可访问 | 🔥 活跃 | AI 与 人类 | - |
 | **Wu Yudong's Blog** | [https://wuyudong.com/](https://wuyudong.com/) | 网站相关的前后端技术 | wuyudong | 网站/php/前端 | 🇨🇳 可访问 | 🔥 活跃 | Keep It Simple, Stupid | [📶](https://wuyudong.com/feed) |
 | **鑫空间，鑫生活** | [https://www.zhangxinxu.com/life](https://www.zhangxinxu.com/life) | 前端技术 | 张鑫旭 | 前端/生活 | 🇨🇳 可访问 | 最后更新2025年02月 | 前端人的工作生活履历 | - |
+| **罗磊的独立博客** | [https://luolei.org/](https://luolei.org/) | 编程与生活 | 罗磊 | 编程/数码/旅行 | 🇨🇳 可访问 | 最后更新2025年06月 | 博客简介，内容详实 | [📶](https://luolei.org/rss)  |
 
 
 
